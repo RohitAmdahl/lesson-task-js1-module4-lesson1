@@ -20,9 +20,11 @@ try{
 
  for (let i = 0; i < teams.length; i++) {
   console.log(teams[i].teamName);
-  if (i === 14 ){
+  if (i === 14  ){
     break;  
   }
+
+
 
   teamsContainer.innerHTML += `<div class="container">
                                <h4>Teamname: ${teams[i].teamName}</h4>
